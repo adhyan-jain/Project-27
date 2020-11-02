@@ -1,4 +1,3 @@
-
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -15,7 +14,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 	
-	roof = new Roof(900,100,800,100);
+	roof = new Roof(950,100,800,100);
 
 	bob1 = new Bob(750,800,50);
 	bob2 = new Bob(850,800,50);
