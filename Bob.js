@@ -6,7 +6,7 @@ class Bob {
       isStatic: false,
       restitution: 1.2,
       friction: 1.0,
-      density: 0.8
+      density: 0.7
      }
    
       this.x = x;
